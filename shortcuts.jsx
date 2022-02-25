@@ -1,23 +1,20 @@
-// This is a simple example Widget to get you started with Übersicht.
-// For the full documentation please visit:
-// https://github.com/felixhageloh/uebersicht
-
-// You can modify this widget as you see fit, or simply delete this file to
-// remove it.
-
-// TODO:
-// - make GitHub repo
-// - read shortcuts from file
+// --------------- CUSTOMIZE ME ---------------
+// the following dimensions are specified in pixels
+const WIDTH = 400 // width of the widget
+const TOP = 20 // top margin
+const LEFT = 20 // left margin
+const REFRESH_FREQUENCY = 3600 // widget refresh frequency in seconds
+// --------------------------------------------
 
 // the refresh frequency in milliseconds
-export const refreshFrequency = 60 * 60 * 1000;
+export const refreshFrequency = REFRESH_FREQUENCY * 1000;
 
 // the CSS style for this widget, written using Emotion
 // https://emotion.sh/
 export const className = `
-  top: 20px;
-  left: 20px;
-  width: 500px;
+  top: ${TOP}px;
+  left: ${LEFT}px;
+  width: ${WIDTH}px;
   box-sizing: border-box;
   padding: 10px 10px 10px;
   color: #FFFFFF;
