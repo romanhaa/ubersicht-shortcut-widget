@@ -4,45 +4,10 @@
 // shift: ⇧
 // eject: ⏏
 {
-  "Global/OS": {
-    "Lock screen": "cmd + ctrl + q",
-    "Sleep": "cmd + opt + eject",
-    "Reboot": "cmd + ctrl + eject",
-    "Raycast": "cmd + space",
-    "Switch desktop": "ctrl + ←/→",
-    "Resize window": "ctrl + opt + ←/→/↑/↓/enter",
+  "category 1": {
+    "example keyboard shortcut": "cmd + ctrl + q",
   },
-  "Chrome": {
-    "Switch between tabs": "cmd + shift + [/]",
-    "Open Developer Tools": "cmd + opt + i",
-    "Open Profile Manager": "cmd + shift + m",
-    "Open Tree Style Tab view": "opt + q",
-    "Discard other tabs": "opt + t",
-  },
-  "Code": {
-    "Open Terminal": "cmd + shift + c",
-    "Switch between open files": "cmd + shift + [/]",
-    "Hide sidebar": "cmd + b",
-    "Add Folder to Workspace": "cmd + k, cmd + o",
-    "Move tab to left/right pane": "cmd + shift + ←/→",
-    "Fold/unfold all (Markdown)": "cmd + k, cmd + 0/j",
-    "Fold/unfold (Markdown)": "cmd + opt + [/]",
-    "Unfold recursively (Markdown)": "cmd + k, cmd + [",
-  },
-  // "Finder": {
-  //   "Connect server": "cmd + k",
-  // },
-  // "Firefox": {
-  //   "New tab in profile 'work'": "cmd + shift + 1",
-  //   "New tab in profile 'private'": "cmd + shift + 2",
-  //   "Open Developer Tools": "cmd + opt + i",
-  // },
-  "Zoom": {
-    "Mute": "cmd + shift + a",
-  },
-  "Misc": {
-    "Show hidden files in 'Open' dialog": "cmd + shift + .",
-    "Add Umlaut dots to next typed character": "opt + u",
-    "Open Emoji menu": "cmd + ctrl + space",
-  },
+  "category 2": {
+    "example keyboard shortcut": "cmd + shift + [/]",
+  }
 }
