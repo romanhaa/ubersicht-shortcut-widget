@@ -1,7 +1,7 @@
 // --------------- CUSTOMIZE ME ---------------
 // the following dimensions are specified in pixels
 const WIDTH = 400 // width of the widget
-const TOP = 20 // top margin
+const TOP = 10 // top margin
 const LEFT = 20 // left margin
 const REFRESH_FREQUENCY = 3600 // widget refresh frequency in seconds
 // --------------------------------------------
