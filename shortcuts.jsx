@@ -39,6 +39,7 @@ export const className = `
 
   li {
     font-size: 13px;
+    margin-bottom: 1px;
   }
 
   em {
