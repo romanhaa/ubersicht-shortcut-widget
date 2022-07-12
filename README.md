@@ -2,7 +2,7 @@
 
 This [Übersicht](http://tracesof.net/uebersicht/) widget displays keyboard shorcuts.
 
-<img src="example.png" width="400px">
+<img src="screenshot.png" width="400px">
 
 ## How to install
 
@@ -21,3 +21,4 @@ The format of the [`shortcuts.json`](shortcuts.json) file looks such:
 ```
 
 <img src="format.png" width="300px">
+
