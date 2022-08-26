@@ -46,11 +46,11 @@ export const className = `
     font-weight: 400;
     font-style: normal;
   }
-`
+`;
 
-import shortcuts from './shortcuts'
+import shortcuts from "./shortcuts";
 
-function Category({name, data}) {
+function Category({ name, data }) {
   return (
     <div key={name}>
       <h2>{name}</h2>
@@ -64,7 +64,7 @@ function Category({name, data}) {
         })}
       </ul>
     </div>
-  )
+  );
 }
 
 export const render = () => {
@@ -75,5 +75,5 @@ export const render = () => {
         return <Category key={category} name={category} data={data} />;
       })}
     </div>
-  )
-}
+  );
+};
