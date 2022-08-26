@@ -55,11 +55,13 @@ function Category({name, data}) {
     <div key={name}>
       <h2>{name}</h2>
       <ul>
-      {
-        Object.entries(data).map(([description, shortcut]) => {
-          return <li><tt>{shortcut}</tt>: {description}</li>
-        })
-      }
+        {Object.entries(data).map(([description, shortcut]) => {
+          return (
+            <li key={shortcut}>
+              <tt>{shortcut}</tt>: {description}
+            </li>
+          );
+        })}
       </ul>
     </div>
   )
@@ -69,11 +71,9 @@ export const render = () => {
   return (
     <div>
       <h1>Shortcuts</h1>
-      {
-        Object.entries(shortcuts).map(([category, data]) => {
-          return <Category name={category} data={data} />
-        })
-      }
+      {Object.entries(shortcuts).map(([category, data]) => {
+        return <Category key={category} name={category} data={data} />;
+      })}
     </div>
   )
 }
